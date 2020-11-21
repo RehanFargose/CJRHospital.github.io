@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Your health is our top Priority">
+	<meta name="keywords" content="Medical Care, Consultation , latest equipment">
+  	<meta name="authors" content="Clive,James,Rehan">
+    <title>CJR Hospital | Welcome</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">CJR</span> Hospital</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="Index.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Departments.html">Departments</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container">
+        <h1>Your health is our top priority</h1>
+        <p>"Laws of the House of God, #13: The delivery of good medical care is to do as much nothing as possible.".</p>
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Patient's Login</h1>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Submit</button>
+        </form>
+      </div>
+    </section>
+
+  <section id="boxes">
+    <div class="container">
+        <div class="box">
+          <a href="https://goo.gl/maps/xH4cMVXxy86h95Km6"><img src="AddressIcon.png"></a> 
+          <h3>Address</h3>
+          <p>Borivali(West),In SFIT clg,3rd Floor</p>
+        </div>
+        <div class="box">
+        <a href="tel:+7030514293"><img src="PhoneIcon.png"></a> 
+          <h3>Call Us</h3>
+          <p>7030514293</p>
+        </div>
+        <div class="box">
+          <img src="Open24x7.jpg">
+          <h3>Available</h3>
+          <p>Open all the time</p>
+        </div>
+        
+  </div>
+</section>
+
+<section id="boxes">
+ <div class="container" >
+        <div class="box">
+          <a href="https://www.medscape.com/"><img src="news.jpg"></a>
+          <h3>Medical News</h3>
+          <p>Latest Updates</p>
+        </div>
+     
+     <div class="box">
+         <a href="https://www.medicinenet.com/healthy_living/article.htm"><img src="Tips.png"></a> 
+          <h3>Health Tips</h3>
+          <p>For a Healthy Lifestyle</p>
+     </div>
+
+     <div class="box">
+       <a href="Services.html"><img src="consultation.png"></a> 
+       <a href="mailto:rehanfargose2@gmail.com"><h3>Visit</h3></a>
+       <p>Book an appoitnment</p>
+
+
+     </div>
+
+
+  </div>
+
+</section>
+
+
+<section id="boxes">
+   <div class="container">
+      <div class="box">
+     <a href="Reportslogin.php"><img src="reports.jpg"></a>
+      <h3>Medical Reports</h3>
+      <p>Check your Reports</p>
+     </div>
+
+
+
+   </div>
+
+
+
+</section>
+
+
+   <footer>
+          <p>CJR Group, Copyright &copy; 2020</p>
+    </footer>
+  
+  </body>
+</html>

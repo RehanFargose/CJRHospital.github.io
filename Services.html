@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable and professional Medical Care">
+    <meta name="keywords" content="Medical Care, Consultation , Latest Equipment">
+    <meta name="authors" content="Clive,James,Rehan">
+    <title>CJR Hospital | Services</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">CJR</span> Hospital</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li class="current"><a href="Services.html">Services</a></li>
+            <li><a href="Departments.html">Departments</a></li>
+          
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Patient Details here</h1>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <a href="Reportslogin.html"><button type="submit" class="button_1">Submit</button></a> 
+        </form>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Services</h1>
+          <ul id="Services">
+            <li>
+              <h3>Medical Care</h3>
+              <p>CJR hospital is a state of the art hospital which hires experienced Doctors and highly trained staff for treating and looking after patients</p>
+              
+            </li>
+            <li>
+              <h3>Consultation </h3>
+              <p>Our Hospital has professionals in various fields working together such as Physicians,Neurologists,EMTs,Plastic Surgeons,etc.</p>
+              
+            </li>
+            <li>
+              <h3>Latest Equipment</h3>
+              <p>Our Hospital has state of the art equipment available when it comes to the patients health we make no compromises and make sure that our equipment will diagnose and treat them perfectly.</p>
+             
+            </li>
+          </ul>
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>To book appointments</h3>
+          <form class="quote" action="AppointmentConnector.php" method="post">
+              <div>
+                <label>Name</label><br>
+                <input type="text" placeholder="name" name="name" minlength="3" maxlength="30" required>
+              </div>
+              <div>
+                <label>Email</label><br>
+                <input type="email" placeholder="Email Address" name="email" pattern="+@gmail.com" required>
+              </div>
+              <div>
+                <label>Message</label><br>
+                <textarea placeholder="Message" name="message"></textarea>
+              </div>
+              
+              <div>
+                <label for="Services">Choose a service:</label>
+
+                  <select name="service" id="Required Service" required>
+                     <option name="service" value="Neurology" id="Neurology">Neurology</option>
+                     <option name="service" value="EMT" id="EMT">EMT</option>
+                     <option name="service" value="Gastro" id="Gastro">Gastro</option>
+                     <option name="service" value="X-ray" id="X-ray">X-ray</option>
+                     <option name="service" value="EMG" id="EMG">EMG</option>
+                     <option name="service" value="ECG" id="ECG">ECG</option>
+                     <option name="service" value="EEG" id="EEG">EEG</option>
+                     <option name="service" value="Sonography" id="Sonography">Sonography</option>
+                     <option name="service" value="MRI" id="MRI">MRI</option>
+
+
+
+                </select>
+
+
+              </div>
+              
+              <div>
+                   <label for="DOB">DOB:</label>
+                   <input type="date" id="DOB" name="DOB" required>
+              </div>
+              
+              <br>
+              <button class="button_1" type="submit">Send</button>
+          </form>
+          <br>
+          <a href="Create.html"><button class="button_1" type="submit">Create Account</button></a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <p>CJR Group, Copyright &copy; 2020</p>
+    </footer>
+  </body>
+</html>

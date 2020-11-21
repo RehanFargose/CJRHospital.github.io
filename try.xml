@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="xsltstyle.xsl" type="text/xsl"?>
+
+<ServicesCost>
+
+<service>
+<name>Neurology</name>
+<Timing>Timing: 9am to 5pm</Timing>
+<description>Doctors Available: Dr. Nadir Bharucha</description>
+<Fees>Rs 650</Fees>
+</service>
+
+<service>
+<name>EMT</name>
+<Timing>Timing: 9am to 5pm</Timing>
+<description>Doctors Available: Dr.Vikas Pandit</description>
+<Fees>900</Fees>
+</service>
+
+<service>
+<name>Gastro</name>
+<Timing>Timing: 9am to 5pm</Timing>
+<description>Doctors Available: Dr.Prem Gonsalves</description>
+<Fees>900</Fees>
+</service>
+
+<service>
+<name>X-Ray</name>
+<Timing>Timing: 9am to 5pm</Timing>
+<description>Doctors Available: Dr.Sudhir Choudhary</description>
+<Fees>600</Fees>
+</service>
+
+<service>
+<name>EMG</name>
+<Timing>Timing: 9am to 5pm</Timing>
+<description>Doctors Available: Dr.Suresh Wariya</description>
+<Fees>950</Fees>
+</service>
+
+<service>
+<name>ECG</name>
+<Timing>Timing: 9am to 5pm</Timing>
+<description>Doctors Available: Dr.Mahesh Mennon</description>
+<Fees>950</Fees>
+</service>
+
+<service>
+<name>EEG</name>
+<Timing>Timing: 9am to 5pm</Timing>
+<description>Doctors Available: Dr.Leslie Dsouza</description>
+<Fees>950</Fees>
+</service>
+
+<service>
+<name>Sonography</name>
+<Timing>Timing: 10am to 7pm</Timing>
+<description>Doctors Available: Dr.Umesh Mopkar</description>
+<Fees>950</Fees>
+</service>
+
+<service>
+<name>MRI</name>
+<Timing>Timing: 9am to 5pm</Timing>
+<description>Doctors Available: Dr.Bharti Patil</description>
+<Fees>950</Fees>
+</service>
+
+</ServicesCost>
